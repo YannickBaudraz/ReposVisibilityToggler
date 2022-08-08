@@ -1,0 +1,25 @@
+{
+  "name": "repository-visibility-toggler",
+  "version": "1.0.0",
+  "description": "Change the visibility of a user's Github projects",
+  "main": "changeVisibility.js",
+  "type": "module",
+  "scripts": {
+    "start": "node changeVisibility.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yannickcpnv/ReposVisibilityToggler.git"
+  },
+  "author": "yannickbaudrazdev@gmail.com",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/yannickcpnv/ReposVisibilityToggler/issues"
+  },
+  "homepage": "https://github.com/yannickcpnv/ReposVisibilityToggler#readme",
+  "dependencies": {
+    "@octokit/core": "^4.0.4",
+    "dotenv": "^16.0.1"
+  }
+}
